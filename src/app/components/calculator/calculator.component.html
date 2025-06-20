@@ -1,0 +1,11 @@
+<div>
+  <input type="number" [(ngModel)]="num1" placeholder="First number">
+  <input type="number" [(ngModel)]="num2" placeholder="Second number">
+  <br><br>
+  <button (click)="add()">Add</button>
+  <button (click)="subtract()">Subtract</button>
+  <button (click)="multiply()">Multiply</button>
+  <button (click)="divide()">Divide</button>
+  <br><br>
+  <div>Result: {{ result }}</div>
+</div>
